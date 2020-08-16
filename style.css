@@ -1,0 +1,189 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Scroll to TOP */
+#myBtn {
+  width: 50px;
+  height: 50px;
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  padding: 7.5px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  transition: 1s;
+}
+
+#myBtn:hover {
+  /* background-color: white; */
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* navbar */
+.navbar-brand {
+  font-weight: 500;
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 45px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  /* background-image: url(img/bg3.jpg);
+  background-size: cover; */
+  height: 85vh;
+}
+
+.display-2 {
+  color: white;
+  font-weight: 500;
+  margin-top: 125px;
+  font-size: 50px;
+}
+
+.blockquote {
+  color: rgb(238, 238, 238);
+}
+
+.blockquote-footer {
+  color: white;
+}
+
+span .greet {
+  font-weight: 300;
+  font-size: 32px;
+  color: magenta;
+}
+
+.join {
+  font-weight: 500;
+  width: 100px;
+}
+
+/* about */
+section {
+  margin-top: -33px;
+  background-color: rgb(241, 241, 241);
+}
+
+.text-about {
+  margin: 25px 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card,
+.list-group {
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Skills */
+.progress {
+  height: 10px;
+}
+
+.text-skills {
+  margin: 25px 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sofrt-skills {
+  margin-top: 0;
+}
+
+.soft-skills,
+.hard-skills {
+  font-size: 20;
+}
+
+/* Contact */
+.text-contact {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.list-group {
+  margin-top: 5px;
+}
+
+/* footer */
+.footer {
+  font-weight: 300;
+  padding-top: 15px;
+  margin-bottom: 0;
+  color: white;
+  height: 10vh;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.send {
+  border: none;
+  background-color: primary;
+}
+
+/* HP */
+@media (max-width: 575.98px) {
+  .nav-link {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-right: 0px;
+  }
+
+  .display-2 {
+    color: white;
+    margin-top: 160px;
+    font-size: 38px;
+  }
+
+  .card {
+    height: 246px !important;
+    margin-bottom: 25px;
+  }
+
+  .soft-skills {
+    margin-top: 70px;
+  }
+
+  .soft-skills,
+  .hard-skills {
+    font-size: 25px;
+  }
+
+  .list-group {
+    margin-top: -15px;
+  }
+
+  .submit-form {
+    margin-top: 35px;
+  }
+
+  .footer {
+    padding-top: 25px;
+    font-size: 18px;
+  }
+}
